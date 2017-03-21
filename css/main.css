@@ -1,20 +1,24 @@
 /*General Styles*/
 
 body {
-font-family: "lato";
-color: #111;
-position:relative;
-overflow-x: hidden;
+  font-family: "lato";
+  color: #111;
+  position:relative;
+  overflow-x: hidden;
   }
+  /*Overflow-x specifies whether or not to clip the left/right edges of the content.
+  Overflow-y specifies whether or not to clip the top/bottom edges of the content.*/
 
-  ::-moz-selection { /* Code for Firefox */
-    background: #873fb5;
-    color: #fff;
+  /*::selection selector matches the portion of an element that is selected by a user.
+  Only a few CSS properties can be applied to the ::selection selector: color, background, cursor, and outline.*/
+
+::-moz-selection { /* Code for Firefox */
+  background: #873fb5;
+  color: #fff;
   }
-
-  ::selection {
-    background: #873fb5;
-    color: #fff;
+::selection {
+  background: #873fb5;
+  color: #fff;
   }
 
 .vertical-align {
@@ -24,12 +28,12 @@ overflow-x: hidden;
   }
 
 strong {
-font-weight: 900;
+  font-weight: 900;
 
   }
 
 p  {
-    line-height: 24px;
+  line-height: 24px;
   font-weight: 300;
 
     }
