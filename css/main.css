@@ -1,5 +1,3 @@
-/*General Styles*/
-
 body {
 	font-family: "lato";
 	color: #111;
@@ -7,16 +5,7 @@ body {
 	overflow-x: hidden;
 }
 
-
-/*Overflow-x specifies whether or not to clip the left/right edges of the content.
-  Overflow-y specifies whether or not to clip the top/bottom edges of the content.*/
-
-
-/*::selection selector matches the portion of an element that is selected by a user.
-  Only a few CSS properties can be applied to the ::selection selector: color, background, cursor, and outline.*/
-
 ::-moz-selection {
-	/* Code for Firefox */
 	background: #873fb5;
 	color: #fff;
 }
@@ -40,9 +29,6 @@ p {
 	line-height: 24px;
 	font-weight: 300;
 }
-
-
-/*Anchors*/
 
 a,
 a:focus {
@@ -74,7 +60,7 @@ hr.icon:after {
 }
 
 .glyphicon-menu-hamburger {
-    font-size: 45px;
+	font-size: 45px;
 }
 
 .btn-secondary {
@@ -96,7 +82,6 @@ hr.icon:after {
 	background-color: #fff;
 	color: #873fb5;
 	position: relative;
-
 	line-height: 17px;
 	display: block;
 	letter-spacing: 1px;
@@ -106,9 +91,6 @@ hr.icon:after {
 	text-transform: uppercase;
 	padding: 15px;
 }
-
-
-/*Section Heading*/
 
 .section-heading {
 	color: #873fb5;
@@ -124,11 +106,6 @@ hr.icon:after {
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
-
-
-/*.....................................
- 0. HEADER
-.......................................*/
 
 #home {
 	background: url(../images/background.png) fixed;
@@ -170,12 +147,7 @@ hr.icon:after {
 .learn-more .third-arrow {
 	top: 16px;
 }
-
-
-/*.....................................
- 1. ABOUT
-.......................................*/
-
+/*about*/
 #about {
 	background: url(../images/aboutbg.png) fixed;
 	background-attachment: fixed;
@@ -199,22 +171,20 @@ hr.icon:after {
 	padding: 0 20%;
 }
 
-
-/*.....................................
-  2. Slideshow gallery
-  .......................................*/
+/*gallery*/
 
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img {
 	width: 70%;
-	margin: auto;
+	margin:auto;
 }
 
+.img-fluid.{
+   max-width: 100%;
+  height: auto;
+ }
 
-/*.....................................
-    3. Services
-    .......................................*/
-
+/*services*/
 .service-item {
 	margin-bottom: 40px;
 	margin: auto;
@@ -260,12 +230,7 @@ hr.icon:after {
 	border-color: #9b3fb5;
 	font-weight: 400;
 }
-
-
-/*.....................................
-        3. Portfolio
-        .......................................*/
-
+/*portfolio*/
 #portfolio .col-md-4 {
 	padding: 0px;
 }
@@ -336,34 +301,19 @@ hr.icon:after {
 	display: inline-block;
 	padding: 5px 10px 10px 10px;
 }
-
-
-/*.................
-          Modal
-        ...................*/
-
-
-/* The Modal (background) */
+/*modal*/
 
 .modal {
 	display: none;
-	/* Hidden by default */
 	position: fixed;
-	/* Stay in place */
 	z-index: 1;
-	/* Sit on top */
 	left: 0;
 	top: 0;
 	width: 100%;
-	/* Full width */
 	height: 100%;
-	/* Full height */
 	overflow: auto;
-	/* Enable scroll if needed */
 	background-color: rgb(0, 0, 0);
-	/* Fallback color */
 	background-color: rgba(0, 0, 0, 0.4);
-	/* Black w/ opacity */
 }
 
 .modal-body {
@@ -381,20 +331,13 @@ hr.icon:after {
 	height: 100px;
 }
 
-
-/* Modal Content/Box */
-
 .modal-content {
 	background-color: #fefefe;
 	padding: 20px;
 	border: 1px solid #888;
 	margin: 0 auto;
 	width: 60%;
-	/* Could be more or less, depending on screen size */
 }
-
-
-/* The Close Button */
 
 .close {
 	color: #aaa;
@@ -419,25 +362,7 @@ hr.icon:after {
 	font-weight: bold;
 }
 
-
-/*.....................................
-    3. Quotes
-  .......................................*/
-
-#quotes {
-	background: url(../images/quotesbg.png) fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	color: #fff;
-	height: 440px;
-}
-
-
-/*.....................................
-  4. Contact
-  .......................................*/
-
+/*form*/
 .form-control {
 	height: 45px;
 	padding: 15px;
@@ -480,11 +405,7 @@ hr.icon:after {
 .form-control:focus::-moz-placeholder {
 	color: #793a93;
 }
-
-
-/*.....................................
-            5. Footer
-              .......................................*/
+/*footer*/
 
 #footer {
 	background: url(../images/footerbg.png) fixed;
