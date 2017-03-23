@@ -1,3 +1,4 @@
+/*general*/
 body {
 	font-family: "lato";
 	color: #111;
@@ -59,6 +60,7 @@ hr.icon:after {
 	padding: .30em;
 }
 
+/*navigation*/
 .glyphicon-menu-hamburger {
 	font-size: 45px;
 }
@@ -107,8 +109,9 @@ hr.icon:after {
 	margin-bottom: 40px;
 }
 
+/*main*/
 #home {
-	background: url(../images/background.png) fixed;
+	background: url(../images/background-min.png) fixed;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -123,6 +126,7 @@ hr.icon:after {
 	border-bottom: 1px solid #fff;
 	display: inline-block;
 	padding: 20px 0px 15px 20px;
+	margin:0;
 }
 
 #home h3 {
@@ -149,7 +153,7 @@ hr.icon:after {
 }
 /*about*/
 #about {
-	background: url(../images/aboutbg.png) fixed;
+	background: url(../images/aboutbg-min.png) fixed;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -321,7 +325,7 @@ hr.icon:after {
 }
 
 .modal-footer {
-	background: url(../images/aboutbg.png) fixed;
+	background: url(../images/aboutbg-min.png) fixed;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -408,7 +412,7 @@ hr.icon:after {
 /*footer*/
 
 #footer {
-	background: url(../images/footerbg.png) fixed;
+	background: url(../images/footerbg-min.png) fixed;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
